@@ -134,13 +134,13 @@ Edit the CSS variables in `styles.css` to match your brand:
 ## Screenshots
 
 ### Desktop Light Mode
-![Desktop Light](screenshots/desktop-light.png)
+![Desktop Light](pictures/light-mode.png)
 
 ### Desktop Dark Mode
-![Desktop Dark](screenshots/desktop-dark.png)
+![Desktop Dark](pictures/dark-mode.png)
 
 ### Mobile View
-![Mobile](screenshots/mobile-view.png)
+![Mobile](pictures/mobile-mode.png)
 
 ## Troubleshooting
 

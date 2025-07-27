@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-bookmark"></i> Bookmark Manager</h1>
+            <div class="header-controls">
+                <button id="darkModeToggle" class="icon-button">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search bookmarks...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                
+                <div class="sort-container">
+                    <label for="sortSelect">Sort by:</label>
+                    <select id="sortSelect">
+                        <option value="title">Title</option>
+                        <option value="date">Date Added</option>
+                    </select>
+                </div>
+                
+                <div class="folder-navigation">
+                    <h3>Folders</h3>
+                    <ul id="folderList">
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="bookmarks-area">
+                <div class="bookmarks-header">
+                    <h2 id="currentFolder">All Bookmarks</h2>
+                    <div class="bookmarks-count">
+                        <span id="bookmarksCount">0</span> bookmarks
+                    </div>
+                </div>
+                
+                <div class="bookmarks-grid" id="bookmarksGrid">
+                </div>
+                
+                <div class="pagination" id="pagination">
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

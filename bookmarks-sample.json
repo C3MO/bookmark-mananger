@@ -1,0 +1,196 @@
+{
+  "guid": "root________",
+  "title": "",
+  "index": 0,
+  "dateAdded": 0,
+  "lastModified": 0,
+  "id": 1,
+  "typeCode": 2,
+  "type": "text/x-moz-place-container",
+  "root": "placesRoot",
+  "children": [
+    {
+      "guid": "toolbar_____",
+      "title": "Bookmarks Toolbar",
+      "index": 0,
+      "dateAdded": 0,
+      "lastModified": 0,
+      "id": 2,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "toolbarFolder",
+      "children": [
+        {
+          "guid": "bookmark1",
+          "title": "GitHub",
+          "index": 0,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 3,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://github.com",
+          "iconUri": "https://github.githubassets.com/favicons/favicon.svg"
+        },
+        {
+          "guid": "bookmark2",
+          "title": "Stack Overflow",
+          "index": 1,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 4,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://stackoverflow.com",
+          "iconUri": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico"
+        },
+        {
+          "guid": "bookmark3",
+          "title": "MDN Web Docs",
+          "index": 2,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 5,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://developer.mozilla.org",
+          "iconUri": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png"
+        }
+      ]
+    },
+    {
+      "guid": "menu________",
+      "title": "Bookmarks Menu",
+      "index": 1,
+      "dateAdded": 0,
+      "lastModified": 0,
+      "id": 6,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "bookmarksMenuFolder",
+      "children": [
+        {
+          "guid": "folder1",
+          "title": "Development Tools",
+          "index": 0,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 7,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "bookmark4",
+              "title": "Visual Studio Code",
+              "index": 0,
+              "dateAdded": 1625097600000000,
+              "lastModified": 1625097600000000,
+              "id": 8,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://code.visualstudio.com",
+              "iconUri": "https://code.visualstudio.com/favicon.ico"
+            },
+            {
+              "guid": "bookmark5",
+              "title": "npm",
+              "index": 1,
+              "dateAdded": 1625097600000000,
+              "lastModified": 1625097600000000,
+              "id": 9,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.npmjs.com",
+              "iconUri": "https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png"
+            }
+          ]
+        },
+        {
+          "guid": "folder2",
+          "title": "Learning Resources",
+          "index": 1,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 10,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "bookmark6",
+              "title": "freeCodeCamp",
+              "index": 0,
+              "dateAdded": 1625097600000000,
+              "lastModified": 1625097600000000,
+              "id": 11,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.freecodecamp.org",
+              "iconUri": "https://cdn.freecodecamp.org/platform/universal/favicons/favicon.ico"
+            },
+            {
+              "guid": "bookmark7",
+              "title": "W3Schools",
+              "index": 1,
+              "dateAdded": 1625097600000000,
+              "lastModified": 1625097600000000,
+              "id": 12,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://www.w3schools.com",
+              "iconUri": "https://www.w3schools.com/favicon.ico"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "unfiled_____",
+      "title": "Other Bookmarks",
+      "index": 2,
+      "dateAdded": 0,
+      "lastModified": 0,
+      "id": 13,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "root": "unfiledBookmarksFolder",
+      "children": [
+        {
+          "guid": "bookmark8",
+          "title": "Google",
+          "index": 0,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 14,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.google.com",
+          "iconUri": "https://www.google.com/favicon.ico"
+        },
+        {
+          "guid": "bookmark9",
+          "title": "YouTube",
+          "index": 1,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 15,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.youtube.com",
+          "iconUri": "https://www.youtube.com/s/desktop/a2047b64/img/favicon.ico"
+        },
+        {
+          "guid": "bookmark10",
+          "title": "Reddit",
+          "index": 2,
+          "dateAdded": 1625097600000000,
+          "lastModified": 1625097600000000,
+          "id": 16,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.reddit.com",
+          "iconUri": "https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png"
+        }
+      ]
+    }
+  ]
+}
